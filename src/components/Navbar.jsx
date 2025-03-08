@@ -5,8 +5,8 @@ import routes from "../routes/routes"
 function Navbar() {
     const location = useLocation()
     return (
-        <nav className="flex items-center justify-center h-28 relative z-[1000]">
-            <div className="flex items-center justify-center gap-x-7 fixed z-[1000] w-80 top-[30px] h-10 rounded-full p-2 shadow-sm font-semibold text-sm">
+        <nav className="flex items-center justify-center h-28">
+            <div className="flex items-center justify-center gap-x-7 bg-white fixed z-[1000] w-80 top-[30px] h-10 rounded-full p-2 shadow-sm font-semibold text-sm">
                 <Link
                     to={routes.home}
                     className={`${location.pathname === routes.home ? "text-link" : ""}`}

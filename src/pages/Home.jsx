@@ -6,7 +6,7 @@ export default function Home() {
         <Layout>
             <HeroSection />
             <div className="mt-3 w-full">
-                <div className="flex items-center gap relative">
+                <div className="flex items-center relative">
                     <section className="w-[70%] pr-24 ">
                         <h1 className="font-[700] text-[45px] text-primary">Full-stack web developer with backend focus</h1>
                         <p>
