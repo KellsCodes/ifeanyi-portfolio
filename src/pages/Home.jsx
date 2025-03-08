@@ -4,6 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { IoLogoGithub, IoIosLink } from "react-icons/io";
 import { FaFacebookSquare, FaMailBulk } from "react-icons/fa";
 import { FaFreeCodeCamp } from "react-icons/fa";
+import { FaBriefcase } from "react-icons/fa6";
 import Card from "../components/Card";
 
 export default function Home() {
@@ -40,6 +41,19 @@ export default function Home() {
                     {
                         [1, 2, 3, 4, 5].map(item => (<Card item={item} />))
                     }
+                </div>
+
+                {/* tech stack and experience */}
+                <div className="flex items-center justify-between gap-x-10 my-15">
+                    <div className="w-1/2">
+                        <h2>Technical Skills</h2>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div className="w-1/2 h-50 border border-quaternary rounded-[18px] p-8">
+                        <h2 className="flex items-center gap-x-5 text-primary font-primary opacity-70"><FaBriefcase /> Work Experience</h2>
+                    </div>
                 </div>
 
             </div>
