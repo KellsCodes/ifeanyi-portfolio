@@ -45,14 +45,34 @@ export default function Home() {
 
                 {/* tech stack and experience */}
                 <div className="flex items-center justify-between gap-x-10 my-15">
-                    <div className="w-1/2">
+                    <div className="w-[50%]">
                         <h2>Technical Skills</h2>
                         <div>
 
                         </div>
                     </div>
-                    <div className="w-1/2 h-50 border border-quaternary rounded-[18px] p-8">
+                    <div className="w-[50%] space-y-5 border border-quaternary rounded-[18px] p-8">
                         <h2 className="flex items-center gap-x-5 text-primary font-primary opacity-70"><FaBriefcase /> Work Experience</h2>
+                        {[1, 2, 3].map(item => <div className="font-primary text-secondary">
+                            <div className="grid grid-cols-3">
+                                <div className="col-span-2 flex items-center gap-x-6">
+                                    <div className="w-[100px] px-3 py-2 shadow rounded-[8px]">
+                                        <img
+                                            src="/partswyse_logo.svg"
+                                            alt="project_img"
+                                            className="w-full h-full object-contain"
+                                        />
+                                    </div>
+                                    <div className="flex flex-col justify-between h-full py-1">
+                                        <h3 className="text-md font-bold text-primary">Partswyse</h3>
+                                        <p className="text-xs">Backend Developer</p>
+                                    </div>
+                                </div>
+                                <div className="col-span-1 flex items-end justify-end text-xs py-1">
+                                    <p>2023 - Present</p>
+                                </div>
+                            </div>
+                        </div>)}
                     </div>
                 </div>
 
