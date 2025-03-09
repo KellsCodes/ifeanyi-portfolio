@@ -6,6 +6,8 @@ import { FaFacebookSquare, FaMailBulk } from "react-icons/fa";
 import { FaFreeCodeCamp } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa6";
 import Card from "../components/Card";
+import projects from "../projects/projects";
+import { FaTools } from "react-icons/fa";
 
 export default function Home() {
     return (
@@ -45,31 +47,64 @@ export default function Home() {
 
                 {/* tech stack and experience */}
                 <div className="flex items-center justify-between gap-x-10 my-15">
-                    <div className="w-[50%]">
-                        <h2>Technical Skills</h2>
-                        <div>
+                    <div className="w-[48%] space-y-5 border-l-2 border-l-link pl-4">
+                        <h2 className="flex items-center gap-x-5 text-link font-primary"><FaTools /> Technical Skills</h2>
+                        <div className="">
+                            <ul className="font-primary text-xs space-y-4">
+                                <li className="flex items-center gap-x-4 border-b border-b-quaternary pb-2">
+                                    <h3 className="font-bold">Programming Languages:</h3>
+                                    <p>Python, JavaScript</p>
+                                </li>
+
+                                <li className="flex items-center gap-x-4 border-b border-b-quaternary pb-2">
+                                    <h3 className="font-bold">Frameworks & Libraries:</h3>
+                                    <p>Django, Adonis.js, Express.js, React.js, TailwindCSS</p>
+                                </li>
+
+                                <li className="flex items-center gap-x-4 border-b border-b-quaternary pb-2">
+                                    <h3 className="font-bold">Databases:</h3>
+                                    <p>MySQL</p>
+                                </li>
+
+                                <li className="flex items-center gap-x-4 border-b border-b-quaternary pb-2">
+                                    <h3 className="font-bold">DevOps & CI/CD:</h3>
+                                    <p>Docker, Docker Compose, GitHub Actions</p>
+                                </li>
+
+                                <li className="flex gap-x-0 border-b border-b-quaternary pb-2">
+                                    <h3 className="font-bold">Testing & Development:</h3>
+                                    <p>Test-Driven Development(TDD), Unit Testing, Restfull API Development</p>
+                                </li>
+
+                                <li className="flex items-center gap-x-4 border-b border-b-quaternary pb-2">
+                                    <h3 className="font-bold">Other tools:</h3>
+                                    <p>WebSockets, AI Analytics</p>
+                                    {/* <p className="text-xs">Redis, WebSockets, Nginx, Celery, AI Analytics</p> */}
+                                </li>
+                            </ul>
 
                         </div>
                     </div>
-                    <div className="w-[50%] space-y-5 border border-quaternary rounded-[18px] p-8">
+                    <div className="w-[52%] space-y-5 border border-quaternary rounded-[18px] p-8">
                         <h2 className="flex items-center gap-x-5 text-primary font-primary opacity-70"><FaBriefcase /> Work Experience</h2>
-                        {[1, 2, 3].map(item => <div className="font-primary text-secondary">
+                        {projects.map(item => <div key={item.id} className="font-primary text-secondary">
                             <div className="grid grid-cols-3">
                                 <div className="col-span-2 flex items-center gap-x-6">
-                                    <div className="w-[100px] px-3 py-2 shadow rounded-[8px]">
+                                    <div className="w-[100px] h-13 px-3 py-2 shadow rounded-[8px]">
                                         <img
-                                            src="/partswyse_logo.svg"
+                                            src={`/${item.logo}`}
                                             alt="project_img"
+                                            loading="lazy"
                                             className="w-full h-full object-contain"
                                         />
                                     </div>
                                     <div className="flex flex-col justify-between h-full py-1">
-                                        <h3 className="text-md font-bold text-primary">Partswyse</h3>
-                                        <p className="text-xs">Backend Developer</p>
+                                        <h3 className="text-md font-bold text-primary">{item.name}</h3>
+                                        <p className="text-xs">{item.position}</p>
                                     </div>
                                 </div>
                                 <div className="col-span-1 flex items-end justify-end text-xs py-1">
-                                    <p>2023 - Present</p>
+                                    <p>{item.year}</p>
                                 </div>
                             </div>
                         </div>)}
