@@ -13,7 +13,7 @@ function Layout({ children }) {
 
             {/* footer */}
             <footer>
-                <div className="px-25 border-t-2 border-t-quaternary h-30 flex items-center justify-between text-sm font-primary text-secondary">
+                <div className="px-25 border-t-2 border-t-quaternary h-20 flex items-center justify-between text-sm font-primary text-secondary">
                     <div className="flex items-center gap-x-10">
                         <Link to={routes.home} className="hover:text-link">Home</Link>
                         <Link to={routes.about} className="hover:text-link">About</Link>
