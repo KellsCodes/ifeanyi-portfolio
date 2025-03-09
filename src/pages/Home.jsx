@@ -31,17 +31,17 @@ export default function Home() {
 
                 {/* Contacts */}
                 <div className="h-20 flex items-center gap-x-5 text-primary opacity-80 text-[25px]">
-                    <a href="https://www.linkedin.com/in/ifeanyi-nworji-619222b7" target="_blank"><BsLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/ifeanyi-nworji-619222b7" target="_blank" className="text-blue-800" ><BsLinkedin /></a>
                     <a href="https://github.com/KellsCodes" target="_blank"><IoLogoGithub /></a>
-                    <a href="https://web.facebook.com/ifeanyi.nworji.7/" target="_blank"><FaFacebookSquare /></a>
-                    <a href="mailto:nworjiifeanyi@gmail.com" target="_blank"><FaMailBulk /></a>
-                    <a href="https://www.freecodecamp.org/kellscode" target="_blank"><FaFreeCodeCamp /></a>
+                    <a href="https://web.facebook.com/ifeanyi.nworji.7/" target="_blank" className="text-blue-600" ><FaFacebookSquare /></a>
+                    <a href="mailto:nworjiifeanyi@gmail.com" target="_blank" className="text-red-700"><FaMailBulk /></a>
+                    <a href="https://www.freecodecamp.org/kellscode" target="_blank" className="text-green-900"><FaFreeCodeCamp /></a>
                 </div>
 
                 {/* projects */}
                 <div className="grid grid-cols-3 gap-3 my-10">
                     {
-                        [1, 2, 3, 4, 5].map(item => (<Card item={item} />))
+                        projects.map(item => (<Card key={item.id} item={item} />))
                     }
                 </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
                         {projects.map(item => <div key={item.id} className="font-primary text-secondary">
                             <div className="grid grid-cols-3">
                                 <div className="col-span-2 flex items-center gap-x-6">
-                                    <div className="w-[100px] h-13 px-3 py-2 shadow rounded-[8px]">
+                                    <div className="w-[100px] h-13 px-3 py-2 shadow-xs rounded-[8px]">
                                         <img
                                             src={`/${item.logo}`}
                                             alt="project_img"
