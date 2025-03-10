@@ -27,7 +27,7 @@ const projects = [
     logo: "picca_logo.webp",
     year: "2022 - 2024",
     description:
-      "Create and share personalized graphics about you, your event, and campaign in seconds while accessing unique customer data.",
+      "Create and share personalized graphics about you, your event, and campaign in minutes while accessing unique customer data.",
     project_link: "https://picca.co/",
     project_img: "",
     id: 3,

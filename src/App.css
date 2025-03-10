@@ -10,6 +10,9 @@
   --color-link: #14b8a6;
   --color-body: #fafafa;
 
+  /* Break point */
+  --breakpoint-3xl: 112rem;
+
 
   /* -----------fonts----------- */
   --font-primary: "Heebo", "sans-serif";

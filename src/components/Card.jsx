@@ -5,7 +5,7 @@ export default function Card({ item }) {
         <a
             href={item.project_link}
             target="_blank"
-            className="w-full p-6 rounded-[14px] hover:bg-body space-y-2 font-secondary hover:transition-all duration-300 ease-in-out group"
+            className="w-full py-6 px-0 sm:px-3 md:p-6 rounded-[14px] hover:bg-body space-y-2 font-secondary hover:transition-all duration-300 ease-in-out group"
         >
             <div className="w-[100px] h-13 pr-3 pl-0 py-2 shadow-xss rounded-[8px]">
                 <img
