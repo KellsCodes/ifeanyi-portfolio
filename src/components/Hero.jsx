@@ -19,10 +19,10 @@ export default function HeroSection() {
     return (
         <div ref={heroRef} className="sticky top-10 mt-5 z-[999]">
             <div
-                className={`bg-quaternary p-[2px] rounded-full transition-all duration-300 ${isSticky ? "h-14 w-14 shadow-md" : "h-20 w-20"
+                className={`bg-quaternary p-[2px] rounded-full transition-all duration-300 ease-in-out ${isSticky ? "h-14 w-14 shadow-md" : "h-20 w-20"
                     }`}
             >
-                <img src="/personal_logo.webp" alt="logo" loading="lazy" className="rounded-full w-[100%] h-[100%] object-cover" />
+                <img src="/personal_logo.webp" alt="logo" loading="lazy" className="rounded-full w-full h-full object-cover" />
             </div>
         </div>
     )
