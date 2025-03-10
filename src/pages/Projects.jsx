@@ -1,11 +1,14 @@
+import HeroSection from "../components/Hero";
 import Layout from "../layout/Layout";
 
 export default function Projects() {
     return (
-        <>
-            <Layout>
-                <div>This is projects page</div>
-            </Layout>
-        </>
+        <Layout>
+            <HeroSection />
+            <div>
+                <div>Projects section</div>
+                <div></div>
+            </div>
+        </Layout>
     )
 }

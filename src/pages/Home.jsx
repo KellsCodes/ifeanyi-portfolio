@@ -1,7 +1,7 @@
 import HeroSection from "../components/Hero";
 import Layout from "../layout/Layout";
 import { BsLinkedin } from "react-icons/bs";
-import { IoLogoGithub, IoIosLink } from "react-icons/io";
+import { IoLogoGithub } from "react-icons/io";
 import { FaFacebookSquare, FaMailBulk } from "react-icons/fa";
 import { FaFreeCodeCamp } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa6";

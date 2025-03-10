@@ -6,7 +6,7 @@ function Navbar() {
     const location = useLocation()
     return (
         <nav className="flex items-center justify-center h-28 font-primary">
-            <div className="flex items-center justify-center gap-x-7 bg-white fixed z-[1000] w-80 top-[30px] h-10 rounded-full p-2 shadow-sm font-semibold text-sm">
+            <div className="flex items-center justify-center gap-x-4 md:gap-x-7 bg-white fixed z-[1000] md:w-80 top-[30px] h-10 rounded-full py-2 px-4 md:p-2 shadow-sm font-semibold text-sm">
                 <Link
                     to={routes.home}
                     className={`${location.pathname === routes.home ? "text-link" : ""}`}
