@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import Card from "../components/Card";
 import HeroSection from "../components/Hero";
 import Layout from "../layout/Layout";
 import projects from "../projects/projects";
 
 export default function Projects() {
+
+    useEffect(() => {
+        document.title = `Ifeanyi Nworji Portfolio - Projects`
+    }, [])
     return (
         <Layout>
             <HeroSection />
@@ -12,7 +17,7 @@ export default function Projects() {
                     Things I’ve made trying to put my skills to use in providing solution.
                 </h1>
                 <p className="leading-7 font-medium font-primary text-secondary text-md">
-                I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are live and available for others to use and explore. Please feel free to check them out on the projects page and I would like some feedback or suggestion for any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.
+                    I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are live and available for others to use and explore. Please feel free to check them out on the projects page and I would like some feedback or suggestion for any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.
                 </p>
             </section>
 

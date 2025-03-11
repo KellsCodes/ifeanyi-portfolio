@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import ContactCard from "../components/ContactCard";
 import HeroSection from "../components/Hero";
 import Layout from "../layout/Layout";
 
 export default function Contact() {
+
+    useEffect(() => {
+        document.title = `Ifeanyi Nworji Portfolio - Contact`
+    }, [])
     return (
         <Layout>
             <HeroSection />

@@ -8,8 +8,13 @@ import { FaBriefcase } from "react-icons/fa6";
 import Card from "../components/Card";
 import projects from "../projects/projects";
 import { FaTools } from "react-icons/fa";
+import { useEffect } from "react";
 
 export default function Home() {
+
+    useEffect(() => {
+        document.title = `Ifeanyi Nworji Portfolio - Home`
+    }, [])
     return (
         <Layout>
             <HeroSection />
