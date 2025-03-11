@@ -15,7 +15,6 @@ export default function Home() {
             <HeroSection />
             <div className="mt-16 lg:mt-5 w-full">
                 <div className="flex flex-col flex-col-reverse gap-y-15 lg:gap-y-0 lg:flex-row lg:items-center lg:relative">
-                    {/* <div className="flex items-center relative"> */}
                     {/* Section description */}
                     <section className="lg:w-[65%] lg:pr-24 space-y-8">
                         <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Full-stack web developer with backend focus</h1>
