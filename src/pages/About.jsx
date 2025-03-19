@@ -15,7 +15,7 @@ export default function About() {
                 {/* Section description */}
                 <section className="lg:w-[65%] lg:pr-24 space-y-8">
                     <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">
-                        I'm Ifeanyi Nworji, I live in Nigeria where I help companies build the future.
+                        Hi, I'm Ifeanyi Nworji. I build modern, scalable web solutions that drive the future.
                     </h1>
                     <p className="leading-9 font-medium font-primary text-secondary text-md">
                         I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are live and available for others to use and explore. Please feel free to check them out on the projects page and I would like some feedback or suggestion for any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.

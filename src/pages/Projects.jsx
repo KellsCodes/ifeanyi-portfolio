@@ -14,10 +14,10 @@ export default function Projects() {
             <HeroSection />
             <section className="lg:w-[75%] space-y-8 mt-8">
                 <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">
-                    Things I’ve made trying to put my skills to use in providing solution.
+                    Projects Showcasing My Skills in Building Solutions
                 </h1>
                 <p className="leading-7 font-medium font-primary text-secondary text-md">
-                    I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are live and available for others to use and explore. Please feel free to check them out on the projects page and I would like some feedback or suggestion for any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.
+                    I take pride in the projects I’ve developed, many of which are live. Explore them and let me know if you have any thoughts on how they can be improved!
                 </p>
             </section>
 

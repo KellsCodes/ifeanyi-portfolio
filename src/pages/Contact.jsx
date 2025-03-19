@@ -13,7 +13,7 @@ export default function Contact() {
             <HeroSection />
             <section className="space-y-8 mt-12">
                 <h1 className="lg:w-[75%] font-[700] text-[45px] leading-12 text-primary font-secondary">
-                    Let's Get in Touch: Ways to Connect with Me
+                    Connect with Me
                 </h1>
                 <p className="leading-9 font-medium font-primary text-secondary text-md">
                     Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at

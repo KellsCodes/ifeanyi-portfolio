@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
 
                 {/* tech stack and experience */}
-                <div className="flex flex-col xl:flex-row items-center xl:justify-between gap-y-8 xl:gap-y-0 lg:gap-x-10 my-15 sm:px-3 lg:px-0">
+                {/* <div className="flex flex-col xl:flex-row items-center xl:justify-between gap-y-8 xl:gap-y-0 lg:gap-x-10 my-15 sm:px-3 lg:px-0">
                     <div className="w-full xl:w-[48%] space-y-5 border-l-2 border-l-link pl-4">
                         <h2 className="flex items-center gap-x-5 text-link font-primary"><FaTools /> Technical Skills</h2>
                         <div className="">
@@ -86,7 +86,6 @@ export default function Home() {
                                 <li className="flex items-center gap-x-2 border-b border-b-quaternary pb-2">
                                     <h3 className="font-bold">Other tools:</h3>
                                     <p>WebSockets, AI Analytics</p>
-                                    {/* <p className="text-xs">Redis, WebSockets, Nginx, Celery, AI Analytics</p> */}
                                 </li>
                             </ul>
 
@@ -116,7 +115,7 @@ export default function Home() {
                             </div>
                         </div>)}
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </Layout>
