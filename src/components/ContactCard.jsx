@@ -16,12 +16,12 @@ export default function ContactCard() {
                 <span>Follow on GitHub
                 </span>
             </a>
-            <a href="https://web.facebook.com/ifeanyi.nworji.7/" target="_blank" className="flex items-center gap-x-4" >
+            {/* <a href="https://web.facebook.com/ifeanyi.nworji.7/" target="_blank" className="flex items-center gap-x-4" >
                 <FaFacebookSquare className="text-lg" />
                 <span>
                     Follow on Facebook
                 </span>
-            </a>
+            </a> */}
             <a href="https://www.freecodecamp.org/kellscode" target="_blank" className="flex items-center gap-x-4">
                 <FaFreeCodeCamp className="text-lg" />
                 <span>

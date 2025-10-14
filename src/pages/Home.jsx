@@ -22,9 +22,11 @@ export default function Home() {
                 <div className="flex flex-col flex-col-reverse gap-y-15 lg:gap-y-0 lg:flex-row lg:items-center lg:relative">
                     {/* Section description */}
                     <section className="lg:w-[65%] lg:pr-24 space-y-8">
-                        <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Full-stack web developer with backend focus</h1>
+                        <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Cloud Native Appliction Developer</h1>
                         <p className="leading-9 font-medium font-primary text-secondary text-md">
-                            I am a full-stack developer (backend focus) with expertise in Django, Node.js, and React.js. I have experience building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.
+                            Certified Associate Cloud Native Engineer (KCNA) with a strong foundation in designing, deploying, and
+                            managing containerized microservices architectures. Passionate about leveraging cloud-native
+                            technologies to build scalable, efficient, and resilient systems.
                         </p>
                     </section>
 
@@ -40,7 +42,7 @@ export default function Home() {
                 <div className="h-20 flex items-center gap-x-5 text-secondary opacity-90 text-[25px]">
                     <a href="https://www.linkedin.com/in/ifeanyi-nworji-619222b7" target="_blank" className="text-bluee-800" ><BsLinkedin /></a>
                     <a href="https://github.com/KellsCodes" target="_blank"><IoLogoGithub /></a>
-                    <a href="https://web.facebook.com/ifeanyi.nworji.7/" target="_blank" className="text-bluee-600" ><FaFacebookSquare /></a>
+                    {/* <a href="https://web.facebook.com/ifeanyi.nworji.7/" target="_blank" className="text-bluee-600" ><FaFacebookSquare /></a> */}
                     <a href="mailto:nworjiifeanyi@gmail.com" target="_blank" className="text-redd-700"><FaMailBulk /></a>
                     <a href="https://www.freecodecamp.org/kellscode" target="_blank" className="text-greenn-900"><FaFreeCodeCamp /></a>
                 </div>

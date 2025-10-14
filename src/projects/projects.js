@@ -1,14 +1,25 @@
 const projects = [
   {
+    name: "Time.it",
+    position: "Fullstack Developer",
+    logo: "timeit.webp",
+    year: "Sept 2025 - Present",
+    description:
+      "Easy to use Task Reminder and Scheduler",
+    project_link: "https://timeit-app.vercel.app/",
+    project_img: "",
+    id: 1,
+  },
+  {
     name: "Partswyse",
     position: "Backend Developer",
     logo: "partswyse_logo.svg",
-    year: "2023 - Present",
+    year: "2024 - Present",
     description:
       "Source and negotiate in real-time all auto parts, engines, accessories etc. Source for parts not readily available within your proximity or more expensive at your proximity.",
-    project_link: "https://partswyse-lemon.vercel.app",
+    project_link: "https://test-partswyse.vercel.app/",
     project_img: "",
-    id: 1,
+    id: 1.1,
   },
   {
     name: "Diskox",

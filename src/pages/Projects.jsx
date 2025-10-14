@@ -13,11 +13,12 @@ export default function Projects() {
         <Layout>
             <HeroSection />
             <section className="lg:w-[75%] space-y-8 mt-8">
-                <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">
-                    Projects Showcasing My Skills in Building Solutions
+                <h1 className="font-[700] text-[35px] leading-12 text-primary font-secondary">
+                    Current and past projects I have built.
                 </h1>
                 <p className="leading-7 font-medium font-primary text-secondary text-md">
-                    I take pride in the projects I’ve developed, many of which are live. Explore them and let me know if you have any thoughts on how they can be improved!
+                    {/* I take pride in the projects I’ve developed, many of which are live. Explore them and let me know if you have any thoughts on how they can be improved! */}
+                    These are some of the cuurent and past projects I have built.
                 </p>
             </section>
 
