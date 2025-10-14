@@ -17,7 +17,7 @@ const projects = [
     year: "Sept 2025",
     description:
       "Automated Email Notification System",
-    project_link: "https://timeit-app.vercel.app/",
+    project_link: "https://github.com/KellsCodes/JobReminder",
     project_img: "",
     id: 2,
   },
