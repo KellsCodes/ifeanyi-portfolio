@@ -3,12 +3,23 @@ const projects = [
     name: "Time.it",
     position: "Fullstack Developer",
     logo: "timeit.webp",
-    year: "Sept 2025 - Present",
+    year: "July 2025 - Aug 2025",
     description:
       "Easy to use Task Reminder and Scheduler",
     project_link: "https://timeit-app.vercel.app/",
     project_img: "",
     id: 1,
+  },
+  {
+    name: "JobReminder Service",
+    position: "Backend Developer",
+    logo: "default.png",
+    year: "Sept 2025",
+    description:
+      "Automated Email Notification System",
+    project_link: "https://timeit-app.vercel.app/",
+    project_img: "",
+    id: 2,
   },
   {
     name: "Partswyse",
@@ -19,7 +30,7 @@ const projects = [
       "Source and negotiate in real-time all auto parts, engines, accessories etc. Source for parts not readily available within your proximity or more expensive at your proximity.",
     project_link: "https://test-partswyse.vercel.app/",
     project_img: "",
-    id: 1.1,
+    id: 3,
   },
   {
     name: "Diskox",
@@ -30,7 +41,7 @@ const projects = [
       "Follow and Connect with African content creators across Africa. Get monetized easily with streamlined approach to monetization especially for African creators.",
     project_link: "https://diskox.com/",
     project_img: "",
-    id: 2,
+    id: 4,
   },
   {
     name: "Picca.co",
@@ -41,7 +52,7 @@ const projects = [
       "Create and share personalized graphics about you, your event, and campaign in minutes while accessing unique customer data.",
     project_link: "https://picca.co/",
     project_img: "",
-    id: 3,
+    id: 5,
   },
   {
     name: "WritersGig",
@@ -52,7 +63,7 @@ const projects = [
       "Find the perfect writer for your content. Gain access to a pool of professional writers and save time.",
     project_link: "https://writersgig.com/",
     project_img: "",
-    id: 4,
+    id: 6,
   },
 ];
 
