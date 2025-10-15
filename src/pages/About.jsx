@@ -16,9 +16,8 @@ export default function About() {
                 <section className="lg:w-[65%] lg:pr-24 space-y-8">
                     <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Hi, I'm Ifeanyi Nworji, Backend & Cloud-Native Engineer.</h1>
                     <p className="leading-9 font-medium font-primary text-secondary text-md">
-                        Certified Associate Cloud Native Engineer (KCNA) with a strong foundation in designing, deploying, and
-                        managing containerized microservices architectures. Passionate about leveraging cloud-native
-                        technologies to build scalable, efficient, and resilient systems.
+                        Backend & Cloud-Native Engineer (KCNA Certified) with a strong foundation in designing, deploying, and managing containerized microservices 
+                        architectures. Passionate about leveraging modern cloud-native technologies to build scalable, efficient, and resilient backend systems.
                     </p>
                 </section>
 
