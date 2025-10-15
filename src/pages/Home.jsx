@@ -22,7 +22,7 @@ export default function Home() {
                 <div className="flex flex-col flex-col-reverse gap-y-15 lg:gap-y-0 lg:flex-row lg:items-center lg:relative">
                     {/* Section description */}
                     <section className="lg:w-[65%] lg:pr-24 space-y-8">
-                        <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Cloud Native Appliction Developer</h1>
+                        <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Backend & Cloud-Native Engineer</h1>
                         <p className="leading-9 font-medium font-primary text-secondary text-md">
                             Certified Associate Cloud Native Engineer (KCNA) with a strong foundation in designing, deploying, and
                             managing containerized microservices architectures. Passionate about leveraging cloud-native

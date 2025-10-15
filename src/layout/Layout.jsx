@@ -20,7 +20,7 @@ function Layout({ children }) {
                         <Link to={routes.projects} className="hover:text-link">Projects</Link>
                         <Link to={routes.contact} className="hover:text-link">Contact</Link>
                     </div>
-                    <div>&copy; {new Date().getFullYear()} Ifeanyi Nworji. All Rights Reserved</div>
+                    <div>{new Date().getFullYear()}, Ifeanyi Nworji.</div>
                 </div>
             </footer>
         </div>

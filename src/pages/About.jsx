@@ -14,7 +14,7 @@ export default function About() {
             <div className="mt-14 flex flex-col flex-col-reverse gap-y-15 lg:gap-y-0 lg:flex-row lg:items-start lg:relative">
                 {/* Section description */}
                 <section className="lg:w-[65%] lg:pr-24 space-y-8">
-                    <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Hi, I'm Ifeanyi Nworji, a Cloud Native Appliction Developer.</h1>
+                    <h1 className="font-[700] text-[40px] leading-12 text-primary font-secondary">Hi, I'm Ifeanyi Nworji, Backend & Cloud-Native Engineer.</h1>
                     <p className="leading-9 font-medium font-primary text-secondary text-md">
                         Certified Associate Cloud Native Engineer (KCNA) with a strong foundation in designing, deploying, and
                         managing containerized microservices architectures. Passionate about leveraging cloud-native
