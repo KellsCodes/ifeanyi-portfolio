@@ -15,11 +15,19 @@ export default function Contact() {
                 <h1 className="lg:w-[75%] font-[700] text-[45px] leading-12 text-primary font-secondary">
                     Connect with Me
                 </h1>
-                <p className="leading-9 font-medium font-primary text-secondary text-md">
-                    Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at
+                <p className="leading-7 font-medium font-primary text-secondary text-md">
+                    Thank you for visiting my portfolio. I'm open to professional opportunities, collaborations
+                    and technical discussions related to software development, backend engineering, and DevOps.
+                </p>
+                <p className="leading-7 font-medium font-primary text-secondary text-md">
+                    For job opportunities or project inquiries, please reach out to me directly at
                     <a href="maito:nworjiifeanyi@gmail.com" target="_blank" className="ml-1 text-link">
-                        nworjiifeanyi@gmail.com</a>.
-                    I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. If you prefer to connect on social media, you can find me on <a href="https://www.linkedin.com/in/ifeanyi-nworji-619222b7" target="_blank" className="text-link">LinkedIn</a> or <a href="https://web.facebook.com/ifeanyi.nworji.7/" target="_blank" className="text-link">Facebook</a>. Thanks again for your interest, and I look forward to hearing from you!
+                        nworjiifeanyi@gmail.com</a>. I typically respond within 24 hours. You can also connect with me on
+                    <a href="https://www.linkedin.com/in/ifeanyi-nworji-619222b7" target="_blank" className="ml-1 text-link"> LinkedIn </a>
+                    for professional networking.
+                </p>
+                <p className="leading-7 font-medium font-primary text-secondary text-md">
+                    I look forward to connecting and exploring how we can build impactful solutions together.
                 </p>
             </section>
 

@@ -1,6 +1,6 @@
 const projects = [
   {
-    name: "Time.it",
+    name: "TimeIt",
     position: "Fullstack Developer",
     logo: "timeit.webp",
     year: "July 2025 - Aug 2025",
@@ -16,7 +16,7 @@ const projects = [
     logo: "default.png",
     year: "Sept 2025",
     description:
-      "Automated Email Notification System",
+      "Automated Serveless Email Notification System that runs as a background job",
     project_link: "https://github.com/KellsCodes/JobReminder",
     project_img: "",
     id: 2,
